@@ -15,6 +15,12 @@ O objetivo do projeto é demonstrar princípios de **JavaScript dinâmico**, man
 
 ---
 
+## Login do Site
+
+Usuário: Pedro
+
+Senha: Pedro
+
 ## Desenvolvedores do Projeto
 
 Pedro Henrique - 10443455
