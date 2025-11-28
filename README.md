@@ -15,6 +15,16 @@ O objetivo do projeto é demonstrar princípios de **JavaScript dinâmico**, man
 
 ---
 
+## Desenvolvedores do Projeto
+
+Pedro Henrique - 10443455
+
+Ian Picciolli - 10314111
+
+Rafael Herrera - 10439674
+
+---
+
 ## Funcionalidades
 
 ### Login  
