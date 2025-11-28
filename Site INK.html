@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/css/style.css">
+  <title>INK - Login</title>
+</head>
+<body>
+
+  <div class="login-container" id="loginPage">
+    <div class="login-box">
+      <h1>Login INK</h1>
+      <input type="text" id="usuario" placeholder="Usuário">
+      <input type="password" id="senha" placeholder="Senha">
+      <button class="btn-login" onclick="fazerLogin()">Continuar</button>
+      <p class="error-msg" id="erro"></p>
+    </div>
+  </div>
+
+  <div class="main-page" id="mainPage">
+
+    <header>
+      <div class="logo">INK</div>
+      <input type="text" class="search-bar" placeholder="Buscar projetos, designers...">
+      <button class="btn-criar">+ Criar</button>
+    </header>
+
+    <section class="banner">
+      <h1>Descubra Designers Incríveis</h1>
+      <p>Explore milhares de projetos criativos e conecte-se com os melhores designers do Brasil</p>
+    </section>
+
+    <section class="categorias" id="categorias">
+      <button class="active" data-cat="Todos">Todos</button>
+      <button data-cat="UI/UX">UI/UX</button>
+      <button data-cat="Branding">Branding</button>
+      <button data-cat="Ilustração">Ilustração</button>
+      <button data-cat="Web Design">Web Design</button>
+      <button data-cat="Mobile">Mobile</button>
+      <button data-cat="3D">3D</button>
+      <button data-cat="Fotografia">Fotografia</button>
+    </section>
+
+    <main class="grid" id="grid"></main>
+
+    <div class="project-page" id="projectPage">
+      <button class="btn-voltar" onclick="voltar()">← Voltar</button>
+      <h2 id="projectTitle"></h2>
+      <p id="projectDesc"></p>
+      <img id="projectImg" style="width:100%;border-radius:10px;margin-top:20px;">
+    </div>
+
+  </div>
+
+  <script src="/js/main.js"></script>
+</body>
+</html>
