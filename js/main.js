@@ -11,13 +11,13 @@ function fazerLogin() {
     }
 }
 const projetos = [
-    {titulo: "App Mobile UI/UX Design", autor: "Ana Silva", img: "./img/UIUX Design.PNG", categoria: "UI/UX", desc: "Design de interface mobile com foco em experiência do usuário."},
+    {titulo: "App Mobile UI/UX Design", autor: "Ana Silva", img: "/img/UIUX Design.png", categoria: "UI/UX", desc: "Design de interface mobile com foco em experiência do usuário."},
     {titulo: "Digital Art Illustration", autor: "Pedro Santos", img: "/img/Digital Art.jpg", categoria: "Ilustração", desc: "Ilustração digital vibrante e detalhada."},
     {titulo: "Corporate Brand Identity", autor: "Beatriz Rodrigues", img: "/img/Corparate Art.jpg", categoria: "Branding", desc: "Identidade visual corporativa com materiais de papelaria."},
     {titulo: "Modern Furniture Design", autor: "Fernando Alves", img: "/img/Modern furniture.jpg", categoria: "3D", desc: "Design moderno de móveis e interiores."},
     {titulo: "Website Portfolio", autor: "Julia Lima", img: "/img/Portfolio.jpg", categoria: "Web Design", desc: "Portfolio web minimalista e elegante."},
     {titulo: "Logo Concept", autor: "Rafael Souza", img: "/img/Logo.jpg", categoria: "Branding", desc: "Criação de logotipo com tipografia personalizada."},
-    {titulo: "App Dashboard UI", autor: "Lucas Pereira", img: "./img/App.PNG", categoria: "UI/UX", desc: "Interface intuitiva para dashboards e analytics."},
+    {titulo: "App Dashboard UI", autor: "Lucas Pereira", img: "/img/App.png", categoria: "UI/UX", desc: "Interface intuitiva para dashboards e analytics."},
     {titulo: "3D Product Render", autor: "Mariana Costa", img: "/img/3D.jpg", categoria: "3D", desc: "Render 3D realista de produto comercial."},
     {titulo: "Poster Art", autor: "João Mendes", img: "/img/Poster.jpg", categoria: "Ilustração", desc: "Poster artístico inspirado em arte urbana."},
     {titulo: "Photography Series", autor: "Carla Ribeiro", img: "/img/Foto.jpg", categoria: "Fotografia", desc: "Série de fotografias conceituais e criativas."},
